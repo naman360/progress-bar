@@ -1,0 +1,18 @@
+.progress__container {
+  background: rgba(233, 236, 239);
+  height: 30px;
+  position: relative;
+  width: 100%;
+}
+.progress__container span {
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+  width: 100%;
+  position: absolute;
+}
+.progress__fill {
+  background: #00c251;
+  height: 100%;
+  width: 80%;
+}
